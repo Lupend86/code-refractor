@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<!--The header of the page can stay in this spot. Throughout the document and stylesheet the term 'div' was replaced with the
+term 'section' to improve semantics -->
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Horiseon Social Solution Services</title>
+</head>
+
+<!-- Organized body to contain different classes recoded as parts of webpage body or relative location on webpage.
+Within the body area, there is a header labeled Horiseon with the letters S, E, and O labeled as a class. That
+class has an attribute which changes the color of the letters within the stylesheet. Within the header is a renamed
+section called nav for the navigation bar. Inside the nav bar, are the 3 navigation tabs -->
+
+<body>
+    <section class="header">
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <section>
+            <ul>
+            <li>
+                <a href="#search-engine-optimization">Search Engine Optimization</a>
+            </li>
+            <li>
+                <a href="#online-reputation-management">Online Reputation Management</a>
+            </li>
+            <li>
+                <a href="#social-media-marketing">Social Media Marketing</a>
+            </li>
+            </ul>
+        </section>
+    </section>
+
+    <!-- A separate section for the background image and placing the image within that space -->
+
+    <section class="hero"></section>
+
+    <!-- Added the missing id under SEO so that, on-click, the visitor would be redirected to the respective
+    section when clicking on the header. Organized the paragraph of text to be more visually similar to a paragraph
+    within the body code. Added alternative text to all of the images within this section. The 3 sections within
+    this content class contains the three highlighted areas for the company's services within an inline, boxed 
+    area -->
+
+    <section class="content">
+
+        <section id="search-engine-optimization" class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt= "An image of a laptop and various office supplies neatly placed on a desk">
+            <h2>Search Engine Optimization</h2>
+                <p>
+                The dominance of mobile internet use means that users are searching for the right business as they 
+                travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase
+                 your visibility and find the right customers for your business.
+                </p>
+        </section>
+
+        <!-- Organized to look similar to previous sibling section -->
+
+        <section id="online-reputation-management" class="online-reputation-management">
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt= "An image of a computer with a graph displaying the a chart showing the increase in reputation" />
+            <h2>Online Reputation Management</h2>
+                <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an 
+                internet connection to say whatever they want about your business. Online Reputation Management 
+                gives you the control over what potential customers see when they search for your business.
+                </p>
+        </section>
+
+        <!-- Organized to look similar to previous sibling section -->
+
+        <section id="social-media-marketing" class="social-media-marketing">
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt= "An image of a team brainstorming using social media references"/>
+            <h2>Social Media Marketing</h2>
+                <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you
+                determine which platforms are suited to your brand, using analytics to find the right markets and
+                increase your lead generation.
+                </p>
+        </section>
+
+    </section>
+
+        <!--Created and renamed section to structure similar to previous sibling section. 
+            Added alt text to images throughout this section; more visually appealing now. 
+            The benefits section follows and is placed static to the right on the page -->
+
+    <section class="benefits">
+
+        <section class="benefit-lead">
+            <h3>Lead Generation</h3>
+            <img src="./assets/images/lead-generation.png" alt= "An icon depicting a cog turning into money" />
+                <p>
+                Inbound strategies for lead generation require less work for your business,
+                bringing customers directly to your website.
+                </p>
+        </section>
+
+        <!-- Added alt text. Organized section. -->
+
+        <section class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <img src="./assets/images/brand-awareness.png" alt= "An icon depicting the head of a person as a lightbulb on shoulders" />
+                <p>
+                Users find your business through paid and organic searches, increasing the
+                search ranking and visibility for your business.
+                </p>
+        </section>
+
+        <!-- Added alt text. Organized section. Removed extra end </img> -->
+
+        <section class="benefit-cost">
+            <h3>Cost Management</h3>
+            <img src="./assets/images/cost-management.png" alt= "An icon depicting a row of coins with a cog in the background" />
+                <p>
+                As the search ranking for your business increases, your advertising costs
+                decrease, and you no longer need to advertise your page.
+                </p>
+        </section>
+
+    </section>
+
+    <!-- This section contains the footer with a note from the developers and copyright year -->
+
+    <section class="footer">
+        <h2>Made with ❤️️ by Horiseon</h2>
+            <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+    </section>
+
+</body>
+
+</html>
